@@ -334,4 +334,15 @@ ul {
             -webkit-filter: hue-rotate(360deg);
         }
     }
+    .card {
+    margin: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: rgb(0, 225, 255);
+    border-width: 3px;
+    border-style: solid;
+    padding: 20px;
+}
 }
