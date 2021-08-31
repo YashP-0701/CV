@@ -10,6 +10,32 @@ p {
     color: #FFF
 }
 
+.animate {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    background-image: -webkit-linear-gradient(80deg, #ff0505, #fa07a9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 1s infinite;
+}
+
+.headings {
+    background-image: -webkit-linear-gradient(80deg, #09ff00, #0026ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 1s infinite;
+}
+
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(360deg);
+    }
+}
+
 h4 {
     font-size: 1rem;
     text-align: center;
@@ -276,5 +302,24 @@ ul {
         font-family: 'Shadows Into Light', cursive;
         font-size: 1.25em;
         margin-left: 5px;
+    }
+    .me-img {
+        padding-left: 30px;
+    }
+    .animate {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        background-image: -webkit-linear-gradient(80deg, #ff0505, #fa07a9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 1s infinite;
+    }
+    @-webkit-keyframes hue {
+        from {
+            -webkit-filter: hue-rotate(0deg);
+        }
+        to {
+            -webkit-filter: hue-rotate(360deg);
+        }
     }
 }
